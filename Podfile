@@ -5,7 +5,7 @@
 
 target 'TestSourceCode' do
 
-pod "SDWebImage"
+#pod "SDWebImage"
 
 
 end

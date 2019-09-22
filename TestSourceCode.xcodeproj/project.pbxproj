@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D0B22242337C15C0088998F /* DMImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0B22202337C15C0088998F /* DMImageCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1D0B22252337C15C0088998F /* DMWebImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0B22222337C15C0088998F /* DMWebImageView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1D0B22272337D51D0088998F /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D0B22262337D51D0088998F /* test.png */; };
 		1DF07FF323376637001F8082 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07FF223376637001F8082 /* AppDelegate.m */; };
-		1DF07FF623376637001F8082 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07FF523376637001F8082 /* ViewController.m */; };
+		1DF07FF623376637001F8082 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07FF523376637001F8082 /* ViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1DF07FF923376637001F8082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF07FF723376637001F8082 /* Main.storyboard */; };
 		1DF07FFB23376638001F8082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF07FFA23376638001F8082 /* Assets.xcassets */; };
 		1DF07FFE23376638001F8082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF07FFC23376638001F8082 /* LaunchScreen.storyboard */; };
@@ -37,6 +40,11 @@
 
 /* Begin PBXFileReference section */
 		053AF02A952D9E16106AF8BD /* libPods-TestSourceCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestSourceCode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0B22202337C15C0088998F /* DMImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMImageCache.m; sourceTree = "<group>"; };
+		1D0B22212337C15C0088998F /* DMImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMImageCache.h; sourceTree = "<group>"; };
+		1D0B22222337C15C0088998F /* DMWebImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMWebImageView.m; sourceTree = "<group>"; };
+		1D0B22232337C15C0088998F /* DMWebImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMWebImageView.h; sourceTree = "<group>"; };
+		1D0B22262337D51D0088998F /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 		1DF07FEE23376637001F8082 /* TestSourceCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSourceCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF07FF123376637001F8082 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1DF07FF223376637001F8082 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -89,7 +97,6 @@
 				530981A7058FE3DD0B7A1E03 /* Pods-TestSourceCode.debug.xcconfig */,
 				7D989F552B847DB79555D0D5 /* Pods-TestSourceCode.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -122,11 +129,16 @@
 				1DF07FF223376637001F8082 /* AppDelegate.m */,
 				1DF07FF423376637001F8082 /* ViewController.h */,
 				1DF07FF523376637001F8082 /* ViewController.m */,
+				1D0B22212337C15C0088998F /* DMImageCache.h */,
+				1D0B22202337C15C0088998F /* DMImageCache.m */,
+				1D0B22232337C15C0088998F /* DMWebImageView.h */,
+				1D0B22222337C15C0088998F /* DMWebImageView.m */,
 				1DF07FF723376637001F8082 /* Main.storyboard */,
 				1DF07FFA23376638001F8082 /* Assets.xcassets */,
 				1DF07FFC23376638001F8082 /* LaunchScreen.storyboard */,
 				1DF07FFF23376638001F8082 /* Info.plist */,
 				1DF0800023376638001F8082 /* main.m */,
+				1D0B22262337D51D0088998F /* test.png */,
 			);
 			path = TestSourceCode;
 			sourceTree = "<group>";
@@ -264,6 +276,7 @@
 				1DF07FFE23376638001F8082 /* LaunchScreen.storyboard in Resources */,
 				1DF07FFB23376638001F8082 /* Assets.xcassets in Resources */,
 				1DF07FF923376637001F8082 /* Main.storyboard in Resources */,
+				1D0B22272337D51D0088998F /* test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +327,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DF07FF623376637001F8082 /* ViewController.m in Sources */,
+				1D0B22242337C15C0088998F /* DMImageCache.m in Sources */,
 				1DF0800123376638001F8082 /* main.m in Sources */,
+				1D0B22252337C15C0088998F /* DMWebImageView.m in Sources */,
 				1DF07FF323376637001F8082 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
